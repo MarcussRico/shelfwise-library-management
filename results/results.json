@@ -1,0 +1,323 @@
+{
+ "catalogue": {
+  "rows": 10000,
+  "valid_as_is": 2690,
+  "repaired_leading_zeros": 6587,
+  "rejected": 723,
+  "kept": 1000,
+  "copies": 1250,
+  "crosscheck": {
+   "agree": 6571,
+   "disagree": 13,
+   "unchecked": 3
+  }
+ },
+ "simulation": {
+  "Fixed": {
+   "mean_wait": 16.991,
+   "mean_wait_sd": 0.36,
+   "p90_wait": 31.6,
+   "requests": 13231.6,
+   "queued_share": 0.3504,
+   "served_from_queue": 4413.8,
+   "mean_loan_days": 15.721,
+   "contested_share": 0.1712,
+   "unfinished_share": 0.0414,
+   "uncontested_mean_days": 15.718,
+   "fines": 897.2,
+   "late_share": 0.0105
+  },
+  "Demand-adaptive": {
+   "mean_wait": 11.919,
+   "mean_wait_sd": 0.729,
+   "p90_wait": 23.2,
+   "requests": 13992.8,
+   "queued_share": 0.3552,
+   "served_from_queue": 4876.0,
+   "mean_loan_days": 14.372,
+   "contested_share": 0.1708,
+   "unfinished_share": 0.1012,
+   "uncontested_mean_days": 15.579,
+   "fines": 2432.8,
+   "late_share": 0.0245
+  },
+  "sensitivity": [
+   {
+    "min": 5,
+    "k": 0.25,
+    "r": {
+     "mean_wait": 10.984,
+     "mean_wait_sd": 0.364,
+     "p90_wait": 22.6,
+     "requests": 14124.0,
+     "queued_share": 0.3608,
+     "served_from_queue": 5060.4,
+     "mean_loan_days": 14.452,
+     "contested_share": 0.1845,
+     "unfinished_share": 0.1002,
+     "uncontested_mean_days": 15.603,
+     "fines": 2592.8,
+     "late_share": 0.0258
+    }
+   },
+   {
+    "min": 5,
+    "k": 0.5,
+    "r": {
+     "mean_wait": 9.851,
+     "mean_wait_sd": 0.525,
+     "p90_wait": 19.8,
+     "requests": 14248.4,
+     "queued_share": 0.3537,
+     "served_from_queue": 4998.6,
+     "mean_loan_days": 14.236,
+     "contested_share": 0.1721,
+     "unfinished_share": 0.1118,
+     "uncontested_mean_days": 15.571,
+     "fines": 2821.2,
+     "late_share": 0.028
+    }
+   },
+   {
+    "min": 5,
+    "k": 1.0,
+    "r": {
+     "mean_wait": 9.555,
+     "mean_wait_sd": 0.357,
+     "p90_wait": 20.0,
+     "requests": 14369.4,
+     "queued_share": 0.3476,
+     "served_from_queue": 4940.0,
+     "mean_loan_days": 14.072,
+     "contested_share": 0.1656,
+     "unfinished_share": 0.1227,
+     "uncontested_mean_days": 15.613,
+     "fines": 2905.6,
+     "late_share": 0.0297
+    }
+   },
+   {
+    "min": 7,
+    "k": 0.25,
+    "r": {
+     "mean_wait": 13.072,
+     "mean_wait_sd": 0.464,
+     "p90_wait": 25.8,
+     "requests": 13861.4,
+     "queued_share": 0.353,
+     "served_from_queue": 4791.4,
+     "mean_loan_days": 14.629,
+     "contested_share": 0.174,
+     "unfinished_share": 0.0871,
+     "uncontested_mean_days": 15.618,
+     "fines": 2097.2,
+     "late_share": 0.0217
+    }
+   },
+   {
+    "min": 7,
+    "k": 0.5,
+    "r": {
+     "mean_wait": 11.919,
+     "mean_wait_sd": 0.729,
+     "p90_wait": 23.2,
+     "requests": 13992.8,
+     "queued_share": 0.3552,
+     "served_from_queue": 4876.0,
+     "mean_loan_days": 14.372,
+     "contested_share": 0.1708,
+     "unfinished_share": 0.1012,
+     "uncontested_mean_days": 15.579,
+     "fines": 2432.8,
+     "late_share": 0.0245
+    }
+   },
+   {
+    "min": 7,
+    "k": 1.0,
+    "r": {
+     "mean_wait": 12.121,
+     "mean_wait_sd": 0.713,
+     "p90_wait": 23.2,
+     "requests": 13989.2,
+     "queued_share": 0.3467,
+     "served_from_queue": 4750.4,
+     "mean_loan_days": 14.27,
+     "contested_share": 0.1642,
+     "unfinished_share": 0.1092,
+     "uncontested_mean_days": 15.628,
+     "fines": 2695.2,
+     "late_share": 0.028
+    }
+   },
+   {
+    "min": 10,
+    "k": 0.25,
+    "r": {
+     "mean_wait": 15.343,
+     "mean_wait_sd": 0.78,
+     "p90_wait": 31.2,
+     "requests": 13465.4,
+     "queued_share": 0.3448,
+     "served_from_queue": 4468.4,
+     "mean_loan_days": 14.936,
+     "contested_share": 0.1645,
+     "unfinished_share": 0.0685,
+     "uncontested_mean_days": 15.67,
+     "fines": 1644.8,
+     "late_share": 0.0172
+    }
+   },
+   {
+    "min": 10,
+    "k": 0.5,
+    "r": {
+     "mean_wait": 14.777,
+     "mean_wait_sd": 0.696,
+     "p90_wait": 28.6,
+     "requests": 13549.6,
+     "queued_share": 0.3498,
+     "served_from_queue": 4573.8,
+     "mean_loan_days": 14.777,
+     "contested_share": 0.1671,
+     "unfinished_share": 0.0752,
+     "uncontested_mean_days": 15.635,
+     "fines": 1753.2,
+     "late_share": 0.0191
+    }
+   },
+   {
+    "min": 10,
+    "k": 1.0,
+    "r": {
+     "mean_wait": 15.122,
+     "mean_wait_sd": 0.328,
+     "p90_wait": 29.4,
+     "requests": 13577.6,
+     "queued_share": 0.3508,
+     "served_from_queue": 4599.2,
+     "mean_loan_days": 14.715,
+     "contested_share": 0.1704,
+     "unfinished_share": 0.0768,
+     "uncontested_mean_days": 15.647,
+     "fines": 1742.4,
+     "late_share": 0.0193
+    }
+   }
+  ]
+ },
+ "race": {
+  "trials": 2000,
+  "threads": 16,
+  "naive_oversold": 931,
+  "naive_extra_copies": 1030,
+  "safe_oversold": 0,
+  "db_trials": 150,
+  "db_threads": 8,
+  "db_naive_oversold": 150,
+  "db_safe_oversold": 0
+ },
+ "ledger": {
+  "entries": 5000,
+  "build_ms": 41.33,
+  "verify_ms": 9.45,
+  "intact_result": -1,
+  "tamper": {
+   "edit_fine": {
+    "trials": 250,
+    "detected": 250,
+    "located": 250
+   },
+   "delete": {
+    "trials": 250,
+    "detected": 250,
+    "located": 250
+   },
+   "swap": {
+    "trials": 250,
+    "detected": 250,
+    "located": 250
+   },
+   "edit_date": {
+    "trials": 250,
+    "detected": 250,
+    "located": 250
+   }
+  }
+ },
+ "search": {
+  "queries": 500,
+  "substring_top1": 0.016,
+  "substring_top5": 0.022,
+  "fuzzy_top1": 0.756,
+  "fuzzy_top5": 0.89,
+  "clean_fuzzy_top1": 0.798,
+  "clean_substring_top1": 0.788,
+  "fuzzy_ms": 5.322
+ },
+ "tests": {
+  "total": 39,
+  "passed": 39,
+  "by_class": {
+   "IsbnTest": 8,
+   "PolicyTest": 10,
+   "ServiceTest": 13,
+   "LedgerAndSearchTest": 8
+  },
+  "coverage_core_line": 0.7445,
+  "coverage_core_branch": 0.6582,
+  "coverage_all_line": 0.2662,
+  "packages": {
+   "app": {
+    "line": 0.0,
+    "lines": 233,
+    "branch": 0.0
+   },
+   "ledger": {
+    "line": 0.8667,
+    "lines": 15,
+    "branch": 1.0
+   },
+   "model": {
+    "line": 0.84,
+    "lines": 25,
+    "branch": 0.5556
+   },
+   "policy": {
+    "line": 0.8,
+    "lines": 20,
+    "branch": 0.875
+   },
+   "search": {
+    "line": 1.0,
+    "lines": 43,
+    "branch": 0.8421
+   },
+   "service": {
+    "line": 0.7647,
+    "lines": 119,
+    "branch": 0.8478
+   },
+   "sim": {
+    "line": 0.0,
+    "lines": 105,
+    "branch": 0.0
+   },
+   "store": {
+    "line": 0.5455,
+    "lines": 121,
+    "branch": 0.18
+   },
+   "ui": {
+    "line": 0.0,
+    "lines": 316,
+    "branch": 0.0
+   },
+   "util": {
+    "line": 1.0,
+    "lines": 21,
+    "branch": 0.8571
+   }
+  }
+ }
+}

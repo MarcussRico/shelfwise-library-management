@@ -1,0 +1,9 @@
+out/
+*.db
+*.db-wal
+*.db-shm
+.DS_Store
+report/_head.py
+report/_body.py
+report/pages*.json
+report/~$*
